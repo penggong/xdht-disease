@@ -20,14 +20,14 @@ public class CodeGenerator {
     /**
      * JDBC配置，请修改为你项目的实际配置
      */
-    private static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/disease2";
+    private static final String JDBC_URL = "jdbc:mysql://192.168.18.100:3306/disease";
     private static final String JDBC_USERNAME = "root";
-    private static final String JDBC_PASSWORD = "123456";
+    private static final String JDBC_PASSWORD = "root";
     private static final String JDBC_DIVER_CLASS_NAME = "com.mysql.jdbc.Driver";
     /**
      * 模块名称
      */
-    static final String MODULE_NAME = "sys";
+    static final String MODULE_NAME = "test";
     /**
      * 模块路径
      */
@@ -78,11 +78,11 @@ public class CodeGenerator {
      */
     private static final String PACKAGE_PATH_CONTROLLER = "/com/xdht/disease/" + CodeGenerator.MODULE_NAME + "/controller/";
 
-    private static final String AUTHOR = "lzf";
+    private static final String AUTHOR = "gpj";
     private static final String DATE = new SimpleDateFormat("yyyy/MM/dd").format(new Date());
 
     public static void main(String[] args) {
-        genCode("sys_role_menu");
+        genCode("sys_test_gpj");
         //genCode("输入表名","输入自定义Model名称");
     }
 
