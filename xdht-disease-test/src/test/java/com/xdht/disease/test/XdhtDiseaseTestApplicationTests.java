@@ -14,4 +14,8 @@ public class XdhtDiseaseTestApplicationTests {
 		System.out.println("ddd");
 	}
 
+	@Test
+    public void main(){
+
+    }
 }
